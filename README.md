@@ -1,4 +1,4 @@
-<h1 align="center">Automated ELB creation from Jenkins<h1> 
+<h1 align="center">Deploy Application to an EC2 Instance<h1> 
 
 
 # Deployment 4
