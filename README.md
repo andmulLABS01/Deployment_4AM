@@ -161,7 +161,7 @@ Demonstrate the ability to deploy an application to an EC2 instance.
 
 ## System Diagram:
 
-To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_3AM/blob/main/Depoyment3.drawio.png)
+To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_4AM/blob/main/Deployment_4.drawio.png)
 
 ## Issues/Troubleshooting:
 
