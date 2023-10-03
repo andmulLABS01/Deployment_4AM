@@ -13,11 +13,12 @@ Demonstrate the ability to deploy an application to an EC2 instance.
 ## Steps:
 
 ### 1. Clone, branch, and make the update to the Jenkinsfile, and merge back into main, before you start your Jenkins build!!!
-   - This process is to give us practice in using Git and experience in day-to-day operations of a DevOps engineer.
-   - During certain steps in the process, there will be subsections were git commands will need to be used to complete step 1.
-	- Create new repository on GitHub
-	- Use git commands to clone the Kura Deployment 4 repository to local instance and push to new repository
-	- Branch, update and merge Jenkinsfile into main branch
+- This process is to give us practice using Git and experience in the day-to-day operations of a DevOps engineer.
+- During certain steps in the process, there will be subsections where git commands will need to be used to complete step 1.
+   	- Create a new repository on GitHub
+	- Use git commands to clone the Kura Deployment 4 repository to the local instance and push it to the new repository
+	- Branch, update, and merge Jenkinsfile into the main branch
+
 	
 ### 2. Create a T.2 medium in your public subnet:
 - We are using a larger EC2 instance as we will host both our Jenkins server and webserver on the same machine.
@@ -165,13 +166,13 @@ To view the diagram of the system design/deployment pipeline, click [HERE](https
 
 ## Issues/Troubleshooting:
 
-Could not edit nginx default file
+#### 1. Could not edit nginx default file
 
 Resolution Steps:
 - ran sudo nano default to edit the file.
 
 
-Could not select created Security Group when creating VPC
+#### 2. Could not select created Security Group when creating VPC
 
 Resolution Steps:
 - Created a new security group when creating VPC.
