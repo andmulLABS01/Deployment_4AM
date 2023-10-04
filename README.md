@@ -132,7 +132,7 @@ Demonstrate the ability to deploy an application to an EC2 instance.
 
 ### 6. Create a multibranch pipeline and run the build for the application
 
-- Jenkins is the main tool used in this deployment for pulling the program from the GitHub repository, and then building and testing the files to be deployed to Elastic Beanstalk.
+- Jenkins is the main tool used in this deployment for pulling the program from the GitHub repository, and then building and testing the files to be deployed to our EC2.
 - Creating a multibranch pipeline gives the ability to implement different Jenkinsfiles for different branches of the same project.
 - A Jenkinsfile is used by Jenkins to list out the steps to be taken in the deployment pipeline.
 
@@ -162,7 +162,7 @@ Demonstrate the ability to deploy an application to an EC2 instance.
 
 ## System Diagram:
 
-To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_4AM/blob/main/Deployment_4.drawio.png)
+To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_4AM/blob/main/Deployment_4.drawio%20(1).png)
 
 ## Issues/Troubleshooting:
 
